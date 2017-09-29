@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_volunteer"
+            android:icon="@drawable/voluntier"
+            android:title="Join as volunteer" />
+        <item
+            android:id="@+id/nav_acc_setting"
+            android:icon="@drawable/setting_icon"
+            android:title="Account settings" />
+        <item
+            android:id="@+id/nav_add_contact"
+            android:icon="@drawable/add_contact"
+            android:title="Add emergency contact" />
+
+        <item
+            android:id="@+id/nav_view_location"
+            android:icon="@drawable/view_location"
+            android:title="View Location" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
